@@ -51,12 +51,12 @@ const Login = () => {
             <Form onSubmit={handleSubmit} className="form shadow-lg p-3 mb-5 bg-secondary text-white rounded-3 m-auto mt-4 w-50">
                 <Form.Group as={Col} controlId="formEmail" className="mb-3">
                     <Form.Label>Student_Email</Form.Label>
-                    <Form.Control type="email" name='email' placeholder="Enter email" required onChange={handleChange} />
+                    <Form.Control type="email" name='email' placeholder="Enter email" autoComplete="username" required onChange={handleChange} />
                 </Form.Group>
 
                 <Form.Group as={Col} className="mb-3"controlId="formPassword">
                     <Form.Label>Student_Password</Form.Label>
-                    <Form.Control type="password" name='password' placeholder="Enter password" required onChange={handleChange} />
+                    <Form.Control type="password" name='password' placeholder="Enter password" autoComplete="new-password" required onChange={handleChange} />
                 </Form.Group>
 
                 <Button variant="warning" type="submit" className=' btn1 me-4'>Login
