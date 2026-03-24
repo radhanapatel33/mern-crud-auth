@@ -28,4 +28,4 @@ https://mern-crud-auth-three.vercel.app
 git clone https://github.com/radhanapatel33/mern-user-management-system.git
 cd mern-user-management-system
 npm install
-npm start
+npm run dev
